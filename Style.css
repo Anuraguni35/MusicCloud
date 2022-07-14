@@ -1,0 +1,114 @@
+
+/* ---Navbar styling----------------------- */
+
+#Navebarimg{
+    height:35px;
+    border-radius: 50px;
+}
+.navbar-brand{
+    margin-left: 10px;
+}
+.btn{
+    border-color: white;
+    color: white;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: white;
+}
+.Search{
+    border-radius: 15px;
+    padding-right: 60px;
+}
+
+
+
+/* -------------Main Body Styling-------------- */
+.outerContainer{
+    background-color: antiquewhite;
+    height: 80vh;
+    display: flex;
+    
+    
+}
+.container{
+    background-color: black;
+    height: 75vh;
+    margin-top: 3vh;
+    border-radius: 10px;
+    background-image: url('imgs/bj.jpg.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 60vh;
+    padding: 3vh;
+    color: white;
+    font-size: 4vh;
+    flex-wrap: wrap;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.Songitem{
+ margin-top: 10px ;
+ height: 40px;
+ background-color: white;
+ font-size: 15px;
+ color: black;
+ width: 70vh;
+ border-radius: 50px;
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ flex-wrap: wrap;
+}
+.Songitem img{
+    height: 41px;
+    border-radius: 50px;
+    
+}
+.Songlistplay{
+    margin-right: 15px;
+    margin-top: 9px;
+}
+.Songname{
+    margin-top: 9px;
+    
+}
+
+
+
+/* ----------------buttom styling----------------    */
+.buttom{
+    background-color: black;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    flex-direction: column;
+}
+.Playrange{
+    width: 150vh;
+    text-align:center ;
+    cursor: pointer;
+}
+.playbtn{
+    margin-top: 8px;
+}
+.icon{
+    cursor: pointer;
+    padding-left: 1vh;
+}
+.songinfo{
+    position: absolute;
+    left:15vw;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    cursor:grabbing
+}
+.songinfo img{
+    opacity: 0;
+    transition: 0.7s ease-in;
+   
+}

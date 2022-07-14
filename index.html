@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="Style.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@800&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200;300&family=Inter:wght@400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,200&family=Varela+Round&display=swap');
+  </style>
+  <title>MusicCloud-Play Music Online</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="./MusicCloud-logos_white.png" alt="" id="Navebarimg">
+      <a class="navbar-brand" href="#"> MusicCloud</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">FAQ</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  ">Support</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 Search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn " id="nav-btn" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!------------MAin Body---------------->
+  <div class="outerContainer">
+    <div class="container">
+      MusicCloud Origionals & Exclusives
+      <div class="Songitemcontain">
+
+
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="1" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="2" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="3" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="4" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="5" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="6" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="7" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="8" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+        <div class="Songitem">
+          <img src="/imgs/1.jpg" alt="1">
+          <span class="Songname">Raatan Lambiyan</span>
+          <span class="Songlistplay"><Span>   5:12</Span><i id="9" class="fa-solid fa-circle-play icon Songitemplay"></i></span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------Bottom --------- -->
+  <div class="buttom  bg-dark">
+    
+      
+      <input type="range" class="Playrange" id="Progressbar" value="0" min="0" max="100">
+      
+   
+
+    <div class="playbtn"><i class="fa-solid fa-2x fa-backward-step icon " id="Previous" ></i>
+      <i class="fa-solid fa-2x fa-circle-play icon" id="Masterplay"></i>
+      <i class="fa-solid fa-2x fa-forward-step icon" id="next"></i>
+    </div>
+    <div class="songinfo">
+      <img src="/imgs/YdBO.gif" width="70px" height="60px" id="Gif"> <span id="crntsong">Raatan Lambiyan-Arijeet Singh</span> 
+       
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/3e44ad872e.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
