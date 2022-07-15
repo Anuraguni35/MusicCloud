@@ -112,3 +112,65 @@
     transition: 0.7s ease-in;
    
 }
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 75vh;
+    }
+    .Songitemcontain{
+        width: 75vh;
+    }
+    .Songitem{
+       width: 50vh;
+       
+       
+    }
+    .buttom{
+        height: 20vh;
+        justify-content:space-around;
+    }
+    .Playrange{
+        width: 50vh;
+    }
+    .songinfo{
+       left:28vw;
+       margin-top: 9px;
+    }
+
+}
+@media screen and (max-width:570px) {
+    .container{
+        width: 40vh;
+        height: 95vh;
+    }
+    .Songitem{
+        width: 33vh;
+        height: 60px;
+        font-size: 10px;
+       text-align: center;
+    }
+    .outerContainer{
+        height: 100vh;
+    }
+    .Playrange{
+        width: 40vh;
+    }
+    .buttom{
+        height: 25vh;        
+    }
+    .songinfo{
+        left:12vw;
+        margin-top: 9px;
+     }
+     .Songitem img{
+        height: 60px;
+        
+        
+    }
+    .Songname{
+        padding-top: 15px;
+        font-weight: bold;
+    }
+    .Songlistplay{
+        padding-top: 15px;
+    }
+}
