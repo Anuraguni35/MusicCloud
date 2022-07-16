@@ -174,3 +174,25 @@
         padding-top: 15px;
     }
 }
+@media screen and (max-width:570px ) {
+    @media screen and (max-height:850px ) {
+     .Songname{
+        /* display: none; */
+     }
+      .Songitem{
+        width:45vh ;
+      } 
+      .Songitemplay{
+        font-size: 30px;
+       padding-bottom: 5px;
+      } 
+      .outerContainer{
+        height: 250vw;
+    }
+    .container{
+        width: 50vh;
+        height: 230vw;
+    }   
+
+    }
+}
